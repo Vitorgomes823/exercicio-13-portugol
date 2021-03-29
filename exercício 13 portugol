@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro valores , soma = 0 , contador
+
+		para (contador = 1 ; contador <= 10 ; contador ++)
+		{
+			escreva("Digite um numero : ")
+			leia(valores)
+			limpa()
+
+			se (valores < 40 )
+			{
+				soma = soma + valores 
+			}
+		}
+
+		escreva("A soma dos valores abaixo de 40 é : ",soma )
+	}
+}
